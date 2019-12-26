@@ -8,5 +8,8 @@ class rtask(models.Model):
     nl = models.CharField(max_length=200)
     de = models.CharField(max_length=200)
 
+    #> ~/beyacademy/BeyAPI$ python3 manage.py migrate
+    #> AttributeError: module 'django.forms.models' has no attribute 'Model'
+
 
 
