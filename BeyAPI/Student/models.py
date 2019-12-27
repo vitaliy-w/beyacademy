@@ -1,5 +1,6 @@
 from django import forms
-from django.forms import models
+from django.db import models
+
 
 
 class CurRTask(models.Model):

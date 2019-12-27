@@ -1,4 +1,4 @@
-from UI.FacebookBot.bot import app
+from UI.FacebookBot import bot
 
 if __name__ == '__main__':
-    app.run()
+    bot.run("", "")
